@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3  font1">
+            <div class="ms-5 col">
+                <div class="col ">
+                    <img src="./img/logo.png" class="" style="width:200px ;" alt="">
+                </div>
+                <div class="col fw-bold ">
+                    <p>~BUILDING YOUR STORY~</p>
+                </div>
+            </div>
+            <!-- Container wrapper -->
+            <div class="container-fluid float-end  col-sm-1 col-md-1 col-lg-6 col-xl-5">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarLeftAlignExample" aria-controls="navbarLeftAlignExample"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                        <path
+                            d="M1 2.75A.75.75 0 0 1 1.75 2h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 2.75Zm0 5A.75.75 0 0 1 1.75 7h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 7.75ZM1.75 12h12.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5Z">
+                        </path>
+                    </svg>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse " id="navbarLeftAlignExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item dropdown">
+                            <div class="container-fluid">
+                                <ul class="navbar-nav ms-auto">
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link active dropdown-toggle" href="#"
+                                            id="navbarDropdownMenuLinkRight" role="button" data-mdb-toggle="dropdown"
+                                            aria-expanded="false">
+                                            PROYEK
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkRight">
+                                            <li>
+                                                <a class="dropdown-item" href="#"> PROYEK SAAT INI &raquo; </a>
+
+                                                <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">PERUMAHAN</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">APARTEMENT</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"> FITUR PROYEK &raquo; </a>
+                                                <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">360 PROJECT TOUR VIEW</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">KALKULATOR KPR</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">PROYEK SELESAI</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">FILOSOFI PENGEMBANGAN</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- BERITA & ACARA -->
+                        <li class="nav-item dropdown">
+                            <div class="container-fluid">
+                                <ul class="navbar-nav ms-auto">
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link active dropdown-toggle" href="#"
+                                            id="navbarDropdownMenuLinkRight" role="button" data-mdb-toggle="dropdown"
+                                            aria-expanded="false">
+                                            BERITA & ACARA
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkRight">
+                                            <li>
+                                                <a class="dropdown-item" href="#"> BERITA &raquo; </a>
+
+                                                <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">MEIDA</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">TIPS</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">KPR</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">PROPERTY</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">LIFESTYLE</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"> EVENT &raquo; </a>
+                                                <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">OPEN HOUSE</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- Navbar dropdown TENTANG KAMI -->
+                        <li class="nav-item dropdown">
+
+                            <div class="container-fluid">
+                                <ul class="navbar-nav ms-auto">
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link active dropdown-toggle" href="#"
+                                            id="navbarDropdownMenuLinkRight" role="button" data-mdb-toggle="dropdown"
+                                            aria-expanded="false">
+                                            TENTANG KAMI
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkRight">
+                                            <li>
+                                                <a class="dropdown-item" href="#"> PROFIL PERUSAHAAN &raquo; </a>
+
+                                                <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">TENTNAG PERUSAHAAN</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">KARENA KAMI PEDULI</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">VISI, MISI & NILAI</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">AKTIVITAS BISNI</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">PENGHARGAAN PERUSAHAAN</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"> KEGiATAN USAHA DAN LAINNYA &raquo;
+                                                </a>
+                                                <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">MUSTIKA CARE</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">MARAKEY PROPERTY SERVICES</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">MUSTIKA PARTNERS AGENT
+                                                            PROGRAM</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#">KONTAK KAMI</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+    </section>
+
+    <section class="mt-5">
+        <div class="row pt-2 px-3 h5 font1 text-center col-sm-auto col-md-auto"
+            style="background-color: #f7ebd5; height: 50px;">
+            <div class="col ">
+                <a href="" class="text-decoration-none text-dark">Inforamsi Proyek</a>
+            </div>
+            <div class="col">
+                <a href="" class="text-decoration-none text-dark">Promo</a>
+            </div>
+            <div class="col">
+                <a href="" class="text-decoration-none text-dark">Fasilitas</a>
+            </div>
+            <div class="col">
+                <a href="" class="text-decoration-none text-dark">Tipe Unit</a>
+            </div>
+            <div class="col">
+                <a href="" class="text-decoration-none text-dark">Lokasi</a>
+            </div>
+            <div class="col">
+                <a href="" class="text-decoration-none text-dark">Kalkulator KPR</a>
+            </div>
+            <div class="col">
+                <a href="" class="text-decoration-none text-dark">Hubungi Kami</a>
+            </div>
+
+        </div>
+        <div class="border border-dark "></div>
+    </section>
+
+    <section class="mt-2">
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/banner 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner3.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner4.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="image-card">
+        <div class="text-center">
+            <p class="h1 font2 fw-semibold">Mustika Park Place - Mustika Land Official</p>
+        </div>
+
+        <div class="row">
+            <div class="col px-5 ">
+                <div class="row mt-5">
+                    <img src="./img/logo-mpp.png" class="w-25" alt="">
+                </div>
+                <div class="row">
+                    <p class="font2 ms-3 mt-3 h5 fw-semibold">Harga Muali Dari : IDR 500.000.00</p>
+                </div>
+                <div class="row">
+                    <p class="font2 ms-3 mt-3 h2 fw-bold">MID YEAR SALE!</p>
+                </div>
+                <div class="row">
+                    <p class="font2 ms-3 mt-3 h2 fw-bold">ALL IN 2.5 JT, TANPA DP!, <br>
+                        KPR MULAI DARI Rp.2 JT-an</p>
+                </div>
+                <div class="row">
+                    <p class="font2 ms-3 mt-5 h5 fw-bold">" RUMAH TERDEKAT DARI PINTU TOL "</p>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="./img/list.png" class="col" alt=""><span class="h5 font2 fw-light">Bebas
+                            Biaya KP</span></div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="./img/list.png" class="col" alt=""><span class="h5 font2 fw-light">Bebas
+                            Pajak BPHTB</span></div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="./img/list.png" class="col" alt=""><span
+                            class="h5 font2 fw-light">Termasuk PPN</span></div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="./img/list.png" class="col" alt=""><span class="h5 font2 fw-light">Gratis
+                            Dispenser*</span></div>
+                </div>
+                <div class="row">
+                    <div class="col"><img src="./img/211766_location_icon.png" style="width: 65px; color: #000066;"
+                            alt=""><span class="h5 font2 fw-light">Gibitung, Bekasi</span></div>
+                </div>
+
+                <div class="row  ms-3 mt-3 ">
+                    <div class="row col-4 py-3 px-3 rounded-3 " style="background-color: #ffefa1;">
+                        <div class="col-1 "><a href="" class="text-decoration-none"><img
+                                    src="./img/104498_facebook_icon(1).png" width="50px" alt=""></a>
+                        </div>
+                        <div class="col-2 ms-4"><a href="" class="text-decoration-none"><img
+                                    src="./img/2959748_instagram_photo_share_icon.png" width="50px" alt=""></a>
+                        </div>
+                        <div class="col-2 ms-4"><a href="" class="text-decoration-none"><img
+                                    src="./img/843786_whatsapp_icon.png" width="50px" alt=""></a></div>
+                    </div>
+                    <div class="col-4 ms-5 rounded-3 py-4" style="background-color: #f99450;"><a href=""
+                            class="text-decoration-none "><span class="text-white font2 ">Download Brosur</span>
+                            <img src="./img/3994354_arrow_download_downloading_interface_save_icon.png"
+                                class="ms-3 col-2" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-5 rounded-4" style="background-color: #fce9c3;">
+                <form>
+                    <div class="mt-3">
+                        <div class="row">
+                            <div class="col text-center ">
+                                <p class="font2 h3 fw-semibold">Hubungi Kami</p>
+                            </div>
+                            <div class="row mt-4 px-5">
+                                <p class="font2 fs-4">* Dapatkan Update Promo & Harga Terbaru <br> <br>
+                                    <span class="fw-bold fs-4">* New Type!</span>
+                                </p>
+                            </div>
+                            <div class="row px-5">
+                                <div class="col"><img src="./img/star.png" style="width: 50px;" alt=""><span
+                                        class="h4 font2 fw-light ms-3">ANNA PREMIUM - 45/72</span></div>
+                            </div>
+                            <div class="row px-5">
+                                <div class="col"><img src="./img/star.png" style="width: 50px;" alt=""><span
+                                        class="h4 font2 fw-light ms-3">ANNIE - 33/60</span></div>
+                            </div>
+                        </div>
+                        <!-- 2 column grid layout with text inputs for the first and last names -->
+                        <div class="form-outline mt-4 rounded-4">
+                            <input type="text" id="form6Example3" class="form-control" placeholder="Nama Lengkap" />
+                            <!-- <label class="form-label" for="form6Example3">Company name</label> -->
+                        </div>
+
+                        <!-- Text input -->
+                        <div class="form-outline mt-4 rounded-4">
+                            <input type="text" id="form6Example3" class="form-control" placeholder="No.Whatsapp" />
+                            <!-- <label class="form-label" for="form6Example3">Company name</label> -->
+                        </div>
+
+                        <!-- Text input -->
+                        <div class="form-outline mt-4 rounded-4">
+                            <input type="text" id="form6Example4" class="form-control" placeholder="Email" />
+                            <!-- <label class="form-label" for="form6Example4">Address</label> -->
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-outline mt-4 rounded-4">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Apakah lokasi perumahan di daerah cibitung, Bekasi cocok dengan
+                                    pencarian anda ?</option>
+                                <option value="1">Ya</option>
+                                <option value="2">Tidak</option>
+                            </select>
+                            <!-- <label class="form-label" for="form6Example5">Email</label> -->
+                        </div>
+
+                        <!-- Number input -->
+                        <div class="form-outline mt-4 rounded-4">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Apakah cicilan KPR 2 JT-an sesuai dengan budget anda ?</option>
+                                <option value="1">Ya</option>
+                                <option value="2">Tidak</option>
+                            </select>
+                            <!-- <label class="form-label" for="form6Example6">Phone</label> -->
+                        </div>
+
+                        <!-- Message input -->
+                        <div class="form-outline mt-4 rounded-4">
+                            <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                            <!-- <label class="form-label" for="form6Example7">Additional information</label> -->
+                        </div>
+
+
+                        <!-- Submit button -->
+                        <div class="row">
+                            <div class="col d-flex justify-content-end">
+                                <button type="submit" class=" mt-5 btn mb-4 text-white font1 fw-bold"
+                                    style="background-color: #2a2b42;">Kirim</button>
+                            </div>
+
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="image-card">
+        <div class="row px-5">
+            <div class="col">
+                <p class="font1 h1 fw-bold">Informasi Proyek</p>
+            </div>
+            <div class="row mt-5">
+                <p class="font1">Mustika Park Place dibangun diatas lahan seluas 28 HA dengan total 2200 unit rumah
+                    dengan menghadirkan elemen konsep
+                    "SAFE" Smart, Active, Fun, Eco, yang memberikan keutuhan hidup dalam sebuah kawasan hunian modern.
+                    Dilengkapi dengan berbagai fasilitas seperti Club house & Swimming pool, Lapangan olahraga, Jogging
+                    track, Navara Lake,
+                    Jaringan internet FIBER OPTIC dgn kecepatan up to 100mbps, Pusat komersial & retail, Taman yang
+                    asri, serta ruang terbuka
+                    hijau yang menunjang berbagai aktivitas harian keluarga dinamis yang harmonis.
+                    Berlokasi sangat strategis berjarak 600m, hanya 1 menit dari pintu gerbang Tol Jorr 2 berada di
+                    daerah yang bertumbuh
+                    dan sangat menjanjikan untuk anda yang suka Investasi.</p>
+            </div>
+            <div class="col">
+                <p class="font1 h1 fw-bold mt-5">Detail Proyek</p>
+            </div>
+            <div class="row ">
+                <p class="font1 mt-3">Jumlah Unit : 2200 Unit <br>
+
+                    Area Proyek : 28 HA</p>
+            </div>
+            <div class="col">
+                <p class="font1 h1 fw-bold mt-5">Detail Proyek</p>
+            </div>
+            <div class="row mt-4">
+                <div class="col-3"><img src="./img/6622970_and_fitness_foot_gym_run_icon.png" class="col-2" alt=""><span
+                        class="h5 font2 fw-light"> Jogging Track
+                    </span></div>
+                <div class="col-3"><img src="./img/9042294_basketball_field_icon.png" class="col-2" alt=""><span
+                        class="h5 font2 fw-light">Lapangan olahraga</span></div>
+                <div class="col-3"><img src="./img/309038_police_secure_security_icon.png" class="col-2" alt=""><span
+                        class="h5 font2 fw-light">Keamanan 24 Jam
+                    </span></div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-3"><img src="./img/326704_store_icon.png" class="col-2" alt=""><span
+                        class="h5 font2 fw-light"> Area Komersil
+                    </span></div>
+                <div class="col-3"><img src="./img/5856558_nature_park_sno_tree_winter_icon.png" class="col-2"
+                        alt=""><span class="h5 font2 fw-light">Tama Hijau</span></div>
+                <div class="col-3"><img src="./img/3383435_car_lot_park_parking_roadsign_icon.png" class="col-2"
+                        alt=""><span class="h5 font2 fw-light">Secure Parking
+                    </span></div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-3"><img src="./img/9042522_gym_icon.png" class="col-2" alt=""><span
+                        class="h5 font2 fw-light"> Ruang Fitnes
+                    </span></div>
+                <div class="col-3"><img src="./img/4575058_earth_globe_internet_magnifier_search_icon.png" class="col-2"
+                        alt=""><span class="h5 font2 fw-light">Internet Fiber Optic</span></div>
+                <div class="col-3"><img src="./img/9829338_forest_lake_outdoor_river_nature_icon.png" class="col-2"
+                        alt=""><span class="h5 font2 fw-light">Danau Resapan
+                    </span></div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-3"><img src="./img/8665644_person_swimming_icon.png" class="col-2" alt=""><span
+                        class="h5 font2 fw-light"> Kolam Renang
+                    </span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="image-card">
+        <div class="col">
+            <div class="row px-5">
+                <p class="font1 h1 fw-bold">Video</p>
+            </div>
+            <div class="row bg-secondary bg-opacity-25">
+                <div class="col text-center py-5 px-5 ">
+                    <img src="./img/yt.png" class="col-9 position-relative" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="image-card">
+        <div class="col">
+            <div class="row px-5">
+                <p class="font1 h1 fw-bold">Tipe Unit</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center  ">
+                    <img src="./img/tipe-30.jpg" class="col-12 position-relative" alt="">
+                </div>
+                <div class="col text-center  ">
+                    <img src="./img/tipe-30-fp.jpg" class="col-12 position-relative" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="image-card">
+        <div class="col">
+            <div class="row px-5">
+                <p class="font1 h1 fw-bold">Lokasi</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center  ">
+                    <img src="./img/mpp-maps.jpg" class="col-12 position-relative" alt="">
+                </div>
+            </div>
+            <div class="row py-5 px-5">
+                <div class="col ">
+                    <p class="font1"><span class=" fw-bold h2">Akses Transportasi</span> <br>
+                        Tol Cimanggis - Cibitung ± 2 min <br>
+                        Stasiun Tambun ± 25 min <br>
+                        Terminal Bus Cikarang ± 25 min</p>
+                </div>
+                <div class="col">
+                    <p class="font1"><span class=" fw-bold h2">Tempat Belanja & Rekreasi</span> <br>
+                        Pasar Setu ± 5 min <br>
+                        Mal Metropolitan ± 20 min <br>
+                        Mc.Donald's ± 15 min <br>
+                        GO! Wet Water Park ± 15 min <br>
+                        Water Kingdom Mekarsari ± 20 min <br>
+                        Taman Mekarsari ± 20 min</p>
+                </div>
+                <div class="col">
+                    <p class="font1"><span class=" fw-bold h2">Tempat Belanja & Rekreasi</span> <br>
+                        Pasar Setu ± 5 min <br>
+                        Mal Metropolitan ± 20 min <br>
+                        Mc.Donald's ± 15 min <br>
+                        GO! Wet Water Park ± 15 min <br>
+                        Water Kingdom Mekarsari ± 20 min <br>
+                        Taman Mekarsari ± 20 min</p>
+                </div>
+                <div class="row">
+                    <p class="font1"><span class=" fw-bold h2">Rumah Sakit</span> <br>
+                        Rumah Sakit Hermina ± 30 min <br>
+                        Rumah Sakit Kartika Husada ± 30 min</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center text-lg-start bg-light text-muted " id="image-card">
+        <!-- Section: Social media -->
+
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
+            <!-- Left -->
+            <!-- <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div> -->
+            <!-- Left -->
+
+            <!-- Right -->
+
+            <!-- Right -->
+        </section>
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5 text-white">
+                <!-- Grid row -->
+                <div class="row mt-5">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <img src="./img/mustika-logo-reverse-footer.png" alt="">
+                        </h6>
+                        <p>
+                            <span class="font1 fw-bold text-white"> MUSTIKA LAND, <br>
+                                We Build Your Story.</span> <br>
+                            <span class="font1 text-white"> For over 30 years, MUSTIKA LAND develops
+                                and manages affordable to high-end homes,
+                                integrated communities, and more for the
+                                purpose of elevating lifestyles and
+                                improving the lives of everyone we touch.</span>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-white font1">
+                        <!-- Links -->
+                        <h6 class=" fw-bold mb-4">
+                            TENTANG KAMI
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Tentnag Mustika Land</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Karena Kami Peduli</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Visi, Misi & Nilai</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Aktivitas Bisnis</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Penghargaan</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-white font1">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Service
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Perumahan</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Appartement</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Mustika Care</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Marakey Property Services</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Kalkulator KPR</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-white font1">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Kontak Kami</h6>
+
+                        <p> <img src="./img/2849835_phone_telephone_cell_call_communication_icon.png" class="col-1"
+                                alt=""> +62 812-8006-5200</p>
+                        <p>
+                            <img src="./img/134146_mail_email_icon.png" class="col-1" alt=""></i>
+                            care@mustikaland.com
+                        </p>
+                        <p> <img src="./img/3669413_location_ic_on_icon.png" class="col-1" alt=""></i>
+                            Mustika Land - <br>
+                            Jl. Tanah Abang <br>
+                            I No.12ii Petojo Selatan, <br>
+                            Gambir, Jakarta Pusat 10160</p>
+                        <!-- <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+                <section class="d-flex justify-content-end ms-5  ">
+                    <!-- Left -->
+                    <!-- <div class="me-5 d-none d-lg-block">
+                        <span>Get connected with us on social networks:</span>
+                    </div> -->
+                    <!-- Left -->
+
+                    <!-- Right -->
+                    <div class="pb-5" style="width: 350px;">
+                        <a href="" class="me-4 text-reset">
+                            <img src="./img/104498_facebook_icon(1).png" class="col-1" alt="">
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <img src="./img/2959748_instagram_photo_share_icon.png" class="col-1" alt="">
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <img src="./img/211928_social_youtube_icon.png" class="col-1" alt="">
+                        </a>
+                        <!-- <a href="" class="me-4 text-reset">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-github"></i>
+                        </a> -->
+                    </div>
+                    <!-- Right -->
+                </section>
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-4" ">
+            © 2023 PT.
+            <a class=" text-white fw-bold" href=""> Mustika Land. All Rights Reserved.</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
